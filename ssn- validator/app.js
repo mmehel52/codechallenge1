@@ -38,4 +38,6 @@ let ssnControl = (data) => {
   }
   return `you entered valid number`;
 };
-console.log(ssnControl("504-58-0987"));
+
+let x = prompt("enter a ss number");
+console.log(ssnControl(x));
